@@ -221,7 +221,7 @@ class LitModel(pl.LightningModule):
                             type=str,
                             help='Training augmentation level c.f. retiriever')
         parser.add_argument('--data-path',
-                            default='/home/yyousfi1/commaai/comma10k',
+                            default='comma10k/',
                             type=str,
                             metavar='dp',
                             help='data_path')
